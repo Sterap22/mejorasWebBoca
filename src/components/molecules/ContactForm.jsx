@@ -15,6 +15,7 @@ const ContactForm = () => {
   };
 
   return (
+   <div className="flex justify-center my-8">
     <form id="contact-form" onSubmit={handleSubmit} className="bg-white shadow-lg rounded-lg p-8 max-w-lg w-full mx-auto">
       <h2 className="text-2xl font-semibold text-gray-800 mb-6 text-center">Contact Us</h2>
       <InputField label="Name" placeholder="Your Name" value={name} onChange={(e) => setName(e.target.value)} />
@@ -37,6 +38,8 @@ const ContactForm = () => {
         <Button type="submit">Send Message</Button>
       </div>
     </form>
+   </div>
+    
   );
 };
 

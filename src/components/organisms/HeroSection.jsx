@@ -1,4 +1,3 @@
-// src/components/organisms/HeroSection.jsx
 import React from 'react';
 import Logo from '../atoms/Logo';
 import Button from '../atoms/Button';
@@ -18,10 +17,10 @@ const HeroSection = () => {
       </h1>
       <nav className="mt-6">
         <ul className="flex space-x-6">
-          <li><a href="#" className="text-gray-700 hover:text-blue-500">Websites</a></li>
-          <li><a href="#" className="text-gray-700 hover:text-blue-500">Apps</a></li>
-          <li><a href="#" className="text-gray-700 hover:text-blue-500">Popularity</a></li>
-          <li><a href="#" className="text-gray-700 hover:text-blue-500">Contact Us</a></li>
+          <li><a href="#contact-form" className="text-gray-700 hover:text-blue-500">Websites</a></li>
+          <li><a href="#services" className="text-gray-700 hover:text-blue-500">Apps</a></li>
+          <li><a href="#popularity" className="text-gray-700 hover:text-blue-500">Popularity</a></li>
+          <li><a href="#contact-us" className="text-gray-700 hover:text-blue-500">Contact Us</a></li>
         </ul>
       </nav>
       <div className="mt-10">
